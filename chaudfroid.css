@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "police";
+  src: url("airstrikelaser.ttf");
+}
+html{
+  background-image: url("fireice.jpg");
+  background-size: cover;
+
+}
+p{
+  font-size: 20px;
+  font-family: "police";
+  src: url("airstrikelaser.ttf");
+}
+h1{ border: solid black 1px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  font-family: "police";
+  src: url("airstrikelaser.ttf");
+
+}
+#user{
+  color: cyan;
+    font-size:20px;
+
+}
+#valider{
+  border: solid black 1px;
+  margin-left: 200px;
+}
+#getstarted{
+  border: solid black 1px;
+  vertical-align: top;
+  display: inline-block;
+  width: 700px;
+  height: 600px;
+  margin-left: 50px;
+
+}
+#help{
+  border: solid black 1px;
+  display: inline-flex;
+  width: 700px;
+  height: 600px;
+  float: right;
+  font-size: 50px;
+  text-align: center;
+  color: cyan;
+  margin-right: 50px;
+
+}

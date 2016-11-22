@@ -1,0 +1,31 @@
+<!DOCTYPE.HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hot-Cold</title>
+  <link rel="stylesheet" href="chaudfroid.css">
+</head>
+<h1>Hot-Cold Game</h1>
+
+<body>
+  <div id="getstarted">
+    <p>Le but de ce jeu est
+simple : L’ordinateur choisit un nombre entre 0 et 100, au joueur de trouver ce nombre en proposant à son
+tour des nombres. Les seules indications donné par l'ordinateur sont “chaud” ou “froid” !
+</p>
+    <div id="user">
+      <form id="number" method="post" action="">
+        <label for="number">Nombre à entrer :</label>
+        <br>
+          <input type="text" name="number" id="number">
+          <br>
+      </form>
+    </div>
+    <button id="valider" onclick="hotcold()">Valider</button>
+  </div>
+  <div id="help">
+    <p id="indic"></p>
+  </div>
+  <script src="chaudfroid.js"></script>
+</body>
+</html>
